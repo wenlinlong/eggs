@@ -5,7 +5,7 @@ module.exports = app => {
         //登录
         async login() {
             let { ctx, app } = this
-            //如果给前端返回数据
+            //如果给前端返回数据.
             //code msg data...
             let { username, password } = ctx.request.body
             let user = await ctx.model.User.findOne({
