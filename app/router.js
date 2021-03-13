@@ -41,5 +41,13 @@ module.exports = app => {
   router.post('/address/changeAddress',controller.address.changeAddress)
   //删除地址
   router.post('/address/delAddress',controller.address.delAddress)
+  //添加购物车
+  router.post('/goodscart/addCart',controller.goodscart.addCart)
+  //删除购物车
+  router.post('/goodscart/delCart',controller.goodscart.delCart)
+  //获取购物车
+  router.get('/goodscart/getCart',controller.goodscart.getCart)
+  //修改购物车
+  router.post('/goodscart/changeCart',controller.goodscart.changeCart)
   
 };

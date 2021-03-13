@@ -6,13 +6,14 @@ module.exports = app => {
  async addAddress(){
     //接受参数
     let { ctx,app } = this
-    let { Name,address,detailedAddress,phone} = ctx.request.body
+    let { Name,address,detailedAddress,phone,checkbox} = ctx.request.body
     //查询已存在
     let ads = await ctx.model.Address.findOne({
         Name,
         address,
         detailedAddress,
-        phone
+        phone,
+        checkbox
     }) 
     if(ads){
         ctx.body = {

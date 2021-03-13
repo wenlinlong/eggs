@@ -28,23 +28,14 @@ module.exports = app => {
                 ]
               },
               {
-                name:"商品配置",
+                name:"订单系列",
                 children:[
                     {
-                        name:"商品分类"
+                        name:"订单列表"
                     },
                     {
-                        name:"商品品牌"
-                    },
-                    {
-                        name:"商品模型"
-                    },
-                    {
-                        name:"商品规格"
-                    },
-                    {
-                        name:"商品属性"
-                    },
+                        name:"vip会员"
+                    }
                 ]
               },
               {

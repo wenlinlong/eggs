@@ -13,6 +13,9 @@ module.exports=app=>{
         },
         phone:{
             type:Number
+        },
+        checkbox:{
+            type:Boolean
         }
     })
     return mongoose.model('Address',AddressSchema)
