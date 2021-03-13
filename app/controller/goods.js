@@ -98,24 +98,29 @@ module.exports = app => {
             let { ctx } = this
             let banners=[
                 { 
-                    name:"雅兰仕艾草暖贴60片盒装",
-                    url:'https://img14.360buyimg.com/n0/jfs/t1/170980/9/5880/131792/601f40f3E37f86d27/a7e824b3ca530902.jpg'
+                    name:"特步男装运动短袖t恤衫",
+                    url:'https://img14.360buyimg.com/n0/jfs/t1/168462/37/7976/221690/6037d563E8c7aaf77/e9734f44d52bf7b3.jpg',
+                    id:'603df24421fa79489cdd8c16'
                 },
                 {
                     name:"北极绒电热水袋",
-                    url:'https://img14.360buyimg.com/n0/jfs/t1/134590/13/7964/93438/5f439226E913d0598/7c18c775f7d23e50.jpg'
+                    url:'https://img14.360buyimg.com/n0/jfs/t1/134590/13/7964/93438/5f439226E913d0598/7c18c775f7d23e50.jpg',
+                    id:'603deeba21fa79489cdd8c0c'
                 },
                 {
                     name:"三星W21 5G",
-                    url:'https://img14.360buyimg.com/n0/jfs/t1/162293/25/7439/71676/6033ab01E38e4cf59/41a3669c052b02e1.jpg'
+                    url:'https://img14.360buyimg.com/n0/jfs/t1/162293/25/7439/71676/6033ab01E38e4cf59/41a3669c052b02e1.jpg',
+                    id:'603def8b21fa79489cdd8c0d'
                 },
                 {
                     name:"水洗棉床上四件套",
-                    url:'https://img14.360buyimg.com/n0/jfs/t1/156549/2/10874/346964/6034f453E147d5e79/dd2008fb86ff9438.jpg'
+                    url:'https://img14.360buyimg.com/n0/jfs/t1/156549/2/10874/346964/6034f453E147d5e79/dd2008fb86ff9438.jpg',
+                    id:'603df16721fa79489cdd8c13'
                 },
                 {
                     name:"MSito高品质T恤男",
-                    url:'https://img14.360buyimg.com/n0/jfs/t1/144233/6/12924/344516/5fa1133aE15b1b585/7de1b6d11f1317cc.jpg'
+                    url:'https://img14.360buyimg.com/n0/jfs/t1/144233/6/12924/344516/5fa1133aE15b1b585/7de1b6d11f1317cc.jpg',
+                    id:'603df20121fa79489cdd8c15'
                 }
             ]
             ctx.body = {

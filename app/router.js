@@ -33,4 +33,13 @@ module.exports = app => {
   router.get('/hotgoods/gethotgoods',controller.hotgoods.getHotgoods)
   //删除秒杀商品
   router.post('/hotgoods/delHotgoods',controller.hotgoods.delHotgoods)
+  //新增地址
+  router.post('/address/addAddress',controller.address.addAddress)
+  //获取地址
+  router.get('/address/getAddress',controller.address.getAddress)
+  //修改地址
+  router.post('/address/changeAddress',controller.address.changeAddress)
+  //删除地址
+  router.post('/address/delAddress',controller.address.delAddress)
+  
 };

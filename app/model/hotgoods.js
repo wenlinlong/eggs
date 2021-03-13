@@ -1,7 +1,7 @@
 module.exports=app=>{
     let mongoose=app.mongoose
     let Schema=mongoose.Schema
-    const Hotoodschema=new Schema({
+    const Hotgoodschema=new Schema({
 
         name:{
             type:String
@@ -31,5 +31,5 @@ module.exports=app=>{
             type:Number
         }
     })
-    return mongoose.model('Hotgoods',Hotoodschema)
+    return mongoose.model('Hotgoods',Hotgoodschema)
 }
